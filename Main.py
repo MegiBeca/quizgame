@@ -1,29 +1,3 @@
-print("Hello!!")
-originalPrice = float(input("Enter the original cost of the item: "))
-salePrice = float(input("Enter the sale price: "))
-percentOff = int((originalPrice - salePrice)/originalPrice * 100)
-print("Original price: $", format(originalPrice, ".2f"), sep="")
-print("Sale price: $", format(salePrice, ".2f"), sep="")
-print("Percent off: ", format(percentOff, "d"),"%", sep="")
-if(percentOff >= 50):
-    print("You got a great sale!")
-
-originalPrice = input(" Enter the original price of the item: ")
-price = int(originalPrice)
-if price >= 50:
-    print("You did not get a sale.")
-else:
-    print("You got a sale")
-
-price = int(input("Enter your price: "))
-if price >= 40:
-    print("You did not get a sale.")
-else:
-    if price <=30:
-        print("You got a sale.")
-    else:
-        print("Normal Price")
-
 name = input("Enter your favorite icecream flavor: ")
 x = 0
 while(x<20):
